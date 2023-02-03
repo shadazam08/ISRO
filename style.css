@@ -122,7 +122,39 @@
    a {
     text-decoration: none;
   }
-  a:hover {
+  button:hover {
     color: var(--white);
     background-color: var(--yellow);
   }
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  }
+  .styled-table tr {
+    background-color: var(--bg-blue);
+    color: #fff;
+    text-align: left;
+  }
+  .styled-table th,
+  .styled-table td {
+    padding: 15px 15px;
+  }
+  .styled-table tbody tr {
+    background-color: var(--bg-blue);
+    color: #fff;
+  }
+.styled-table tbody tr {
+  /* padding-bottom: 10px; */
+  border-bottom: 5px solid #fff;
+}
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+} */
